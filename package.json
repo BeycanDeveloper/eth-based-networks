@@ -1,0 +1,38 @@
+{
+  "namespace": "beycandeveloper",
+  "name": "eth-based-networks",
+  "version": "0.1.0",
+  "description": "ETH Based networks library",
+  "files": [
+    "dist",
+    "src",
+    "index.js"
+  ],
+  "scripts": {
+    "build": "parcel build --no-cache --no-source-maps --dist-dir dist"
+  },
+  "prepublishOnly": "npm run build",
+  "targets": {
+    "module": {
+      "source": "index.js"
+    }
+  },
+  "main": "index.js",
+  "module": "dist/module.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeycanDeveloper/eth-based-networks.git"
+  },
+  "keywords": [
+    "ETH Based networks library"
+  ],
+  "author": "Halil Beycan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BeycanDeveloper/eth-based-networks/issues"
+  },
+  "homepage": "https://github.com/BeycanDeveloper/eth-based-networks",
+  "dependencies": {
+    "@beycandeveloper/eth-wallets": "^0.1.0"
+  }
+}
