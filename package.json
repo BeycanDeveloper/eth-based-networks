@@ -1,24 +1,17 @@
 {
   "namespace": "beycandeveloper",
   "name": "eth-based-networks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ETH Based networks library",
   "files": [
-    "dist",
-    "src",
-    "index.js"
+    "dist"
   ],
   "scripts": {
     "build": "parcel build --no-cache --no-source-maps --dist-dir dist"
   },
   "prepublishOnly": "npm run build",
-  "targets": {
-    "module": {
-      "source": "index.js"
-    }
-  },
-  "main": "index.js",
-  "module": "dist/module.js",
+  "source": "index.js",  
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BeycanDeveloper/eth-based-networks.git"
